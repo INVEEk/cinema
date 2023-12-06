@@ -1,5 +1,6 @@
 * {
     margin: 50px;
+    box-sizing: border-box;
 }
 
 .ticket {
