@@ -1,0 +1,10 @@
+* {
+    margin: 50px;
+}
+
+.ticket {
+    width: 1000px;
+    height: 277px;
+    background-color: moccasin;
+    border-radius: 15px;
+}
