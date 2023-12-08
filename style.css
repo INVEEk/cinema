@@ -1,11 +1,32 @@
 * {
-    margin: 50px;
     box-sizing: border-box;
 }
 
+.body {
+    margin: 50px;
+}
+
 .ticket {
-    width: 1000px;
-    height: 277px;
+    width: 900px;
+    height: 279px;
     background-color: moccasin;
     border-radius: 15px;
+    display: inline-flex;
+    margin: 0;
+}
+
+.ticket-price {
+    width: 300px;
+    height: 279px;
+}
+
+.ticket-details {
+    border-right: 2px dashed green;
+    width: 300px;
+    height: 279px;
+}
+
+.popcorn-photo {
+    width: 300px;
+    height: 279px;
 }
