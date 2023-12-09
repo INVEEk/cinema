@@ -50,6 +50,7 @@
     height: 279px;
     padding: 15px 25px;
     display: block;
+    font-size: larger;
 }
 
 .popcorn-photo {
@@ -65,19 +66,17 @@
 
 .ticket-time {
     width: 250px;
-    height: 20px;
     border-bottom: 1px black solid;
     margin: 20px 0 0;
+
 }
 
 .gate {
     width: 90px;
-    height: 18px;
     margin-top: 20px;
 }
 
 .seat {
-    height: 18px;
     margin-top: 20px;
 }
 
@@ -87,4 +86,10 @@
     justify-content: space-between;
     display: flex;
     margin: 10px 0 0;
+}
+
+.ticket-number {
+    width: 250px;
+    border-bottom: 1px black solid;
+    margin-top: 35px;
 }
