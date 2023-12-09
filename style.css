@@ -48,14 +48,43 @@
     border-right: 2px dashed green;
     width: 300px;
     height: 279px;
+    padding: 15px 25px;
+    display: block;
 }
 
 .popcorn-photo {
     width: 300px;
     height: 279px;
+    padding: 25px;
 }
 
 .ticket-name {
-    font-size: 60px;
+    font-size: 57px;
     text-align: justify;
+}
+
+.ticket-time {
+    width: 250px;
+    height: 20px;
+    border-bottom: 1px black solid;
+    margin: 20px 0 0;
+}
+
+.gate {
+    width: 90px;
+    height: 18px;
+    margin-top: 20px;
+}
+
+.seat {
+    height: 18px;
+    margin-top: 20px;
+}
+
+.ticket-time-details {
+    width: 250px;
+    border-bottom: 1px black solid;
+    justify-content: space-between;
+    display: flex;
+    margin: 10px 0 0;
 }
