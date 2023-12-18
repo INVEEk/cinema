@@ -74,8 +74,16 @@
 .popcorn-image:hover {
     -webkit-transform: rotateZ(-5deg);
     -ms-transform: rotateZ(-5deg);
-    transform: rotateZ(-7deg) translate(-0.8rem, -1ex);
+    transform: rotateZ(-7deg) translate(-0.8rem, -2ex);
     transition: 1s ease;
+}
+
+.seed {
+    display: none;
+}
+
+.popcorn-image:hover + .seed {
+    display: flex;
 }
 
 .ticket-name {
