@@ -54,16 +54,14 @@
 }
 
 .popcorn-photo {
-    display: flex;
-    width: 300px;
-    height: 279px;
     padding: 25px;
-    background-color: #EFC684;
 }
 
 .popcorn-image {
     object-fit: cover;
     margin: 10px 55px;
+    width: 134.26px;
+    height: 194.47px;
 }
 
 .rotate {
