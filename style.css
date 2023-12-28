@@ -78,7 +78,8 @@
 .seeds {
     width: 250px;
     height: 23px;
-    display: none;
+    display: flex;
+    visibility: hidden;
     justify-content: center;
 }
 
@@ -143,6 +144,4 @@
 .popcorn {
     display: flex;
     justify-content: center;
-    position: relative;
-    top: 35px;
 }
