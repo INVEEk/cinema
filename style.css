@@ -50,18 +50,18 @@
     width: 300px;
     height: 279px;
     padding: 15px 25px;
-    display: block;
 }
 
 .popcorn-photo {
     padding: 25px;
+    width: 300px;
+    height: 279px;
 }
 
 .popcorn-image {
     object-fit: cover;
-    margin: 10px 55px;
-    width: 134.26px;
-    height: 194.47px;
+    width: 134px;
+    height: 194px;
 }
 
 .rotate {
@@ -75,12 +75,21 @@
     transition: 1s ease;
 }
 
-.seed {
-    display: none;
+.seeds {
+    width: 250px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
 }
 
-.popcorn-image:hover + .seed {
+.popcorn-image:hover + .seeds {
     display: flex;
+    width: 23px;
+    height: 23px;
+    -webkit-transform: rotateZ(-5deg);
+    -ms-transform: rotateZ(-5deg);
+    transform: rotateZ(-7deg) translate(-0.8rem, -2ex);
+    transition: 1s ease;
 }
 
 .ticket-name {
