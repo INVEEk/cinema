@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    margin: 50px;
+}
+
+.ticket {
+    width: 900px;
+    height: 279px;
+    background-color: #EFC684;
+    border-radius: 15px;
+    display: inline-flex;
+    margin: 0;
+}
+
+.ticket-price {
+    width: 300px;
+    height: 279px;
+    padding: 25px;
+}
+
+.ticket-price-details {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vip {
+    border: 2px black solid;
+    width: 90px;
+    height: 50px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.price {
+    border: 2px black solid;
+    width: 90px;
+    height: 50px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.ticket-details {
+    border-right: 2px dashed green;
+    width: 300px;
+    height: 279px;
+    padding: 15px 25px;
+}
+
+.popcorn-photo {
+    padding: 25px;
+    width: 300px;
+    height: 279px;
+}
+
+.popcorn-image {
+    object-fit: cover;
+    width: 134px;
+    height: 194px;
+}
+
+.rotate {
+    transition: 1s ease;
+}
+
+.popcorn-image:hover {
+    -webkit-transform: rotateZ(-5deg);
+    -ms-transform: rotateZ(-5deg);
+    transform: rotateZ(-7deg) translate(-0.8rem, -2ex);
+    transition: 1s ease;
+}
+
+.seeds {
+    width: 250px;
+    height: 23px;
+    display: flex;
+    visibility: hidden;
+    justify-content: center;
+}
+
+.popcorn-image:hover .seeds {
+    display: flex;
+    width: 23px;
+    height: 23px;
+    -webkit-transform: rotateZ(-5deg);
+    -ms-transform: rotateZ(-5deg);
+    transform: rotateZ(-7deg) translate(-0.8rem, -2ex);
+    transition: 1s ease;
+}
+
+.ticket-name {
+    font-size: 57px;
+    text-align: justify;
+}
+
+.ticket-time {
+    width: 250px;
+    border-bottom: 1px black solid;
+    margin: 20px 0 0;
+}
+
+.gate {
+    width: 90px;
+    margin-top: 20px;
+}
+
+.seat {
+    margin-top: 20px;
+}
+
+.ticket-time-details {
+    width: 250px;
+    border-bottom: 1px black solid;
+    justify-content: space-between;
+    display: flex;
+    margin: 10px 0 0;
+}
+
+.ticket-number {
+    width: 250px;
+    border-bottom: 1px black solid;
+    margin-top: 35px;
+}
+
+.barcode {
+    margin: 40px 1px 0;
+    width: 250px;
+    height: 42px;
+    font-family: 'Libre Barcode 39', serif;
+    font-size: 57px;
+    text-align: justify;
+}
+
+.barcode-number {
+    width: 250px;
+    text-align: center;
+}
+
+.popcorn {
+    display: flex;
+    justify-content: center;
+}
